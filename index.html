@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>MAF Coders Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MAF Coders - Portfolio</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -18,39 +19,53 @@
   </nav>
 </header>
 
+<!-- HERO SECTION -->
 <section class="hero">
-  <h1>Mohammad Abdul Muneer Mogni Shaik</h1>
-  <p></p>
-  <a href="portfolio.html" class="btn">View Projects</a>
+  <canvas id="particleCanvas"></canvas>
+  <div class="hero-content">
+    <h1>Mohammad Abdul Muneer</h1>
+    <p class="typing"></p>
+    <a href="portfolio.html" class="btn">View Projects</a>
+    <a href="game.html" class="btn">Play Robot Runner Game</a>
+  </div>
 </section>
 
-<section id="about-preview" class="fade-in">
-  <h2>About Me</h2>
-  <p style="text-align:center; max-width:800px; margin:auto;">
-    Electronics & Instrumentation Engineer | MS in Information Systems & Technology | Controls, Robotics, Automation, GIS, Python & C/C++ | Building innovative projects and teaching STEM skills.
-  </p>
+<!-- SKILL PLAYGROUND -->
+<section id="skills" class="fade-in">
+  <h2>My Skills</h2>
+  <div class="skill-bubbles">
+    <div class="bubble" data-skill="Python">Python</div>
+    <div class="bubble" data-skill="C/C++">C/C++</div>
+    <div class="bubble" data-skill="GIS">GIS</div>
+    <div class="bubble" data-skill="PLC">PLC</div>
+    <div class="bubble" data-skill="Robotics">Robotics</div>
+  </div>
 </section>
 
-<section id="portfolio-preview" class="fade-in">
+<!-- FEATURED PROJECTS -->
+<section id="featured" class="fade-in">
   <h2>Featured Projects</h2>
   <div class="project-grid">
     <div class="project-card">
       <img src="assets/project-placeholder.png" alt="Smart Pumping System">
       <h3>Smart Industrial Pumping System</h3>
-      <p>PLC-controlled dual-pump system with HMI & GIS mapping.</p>
       <a href="https://github.com/Smamuneermogni11/Smart-Industrial-Pumping-System-with-PLC-and-GIS-Integration" class="btn" target="_blank">View Repo</a>
     </div>
     <div class="project-card">
       <img src="assets/project-placeholder.png" alt="Satellite Imagery NFT">
       <h3>Satellite Imagery for NFT Creation</h3>
-      <p>Python + GIS analysis for NFT mapping projects.</p>
       <a href="https://github.com/Smamuneermogni11/Harnessing-Satellite-Imagery-for-NFT-Creation" class="btn" target="_blank">View Repo</a>
+    </div>
+    <div class="project-card">
+      <img src="assets/project-placeholder.png" alt="Summer GIS Project">
+      <h3>Summer GIS Project 2023</h3>
+      <a href="https://github.com/Smamuneermogni11/Summer_GIS_Project_2023" class="btn" target="_blank">View Repo</a>
     </div>
   </div>
 </section>
 
 <footer>
-  &copy; 2026 MAF Coders | <a href="https://www.linkedin.com/in/mohammadabdulmuneermognishaik/" target="_blank">LinkedIn</a>
+  <p>© 2026 MAF Coders | <a href="https://www.linkedin.com/in/mohammadabdulmuneermognishaik/" target="_blank">LinkedIn</a></p>
 </footer>
 
 <script src="js/script.js"></script>
